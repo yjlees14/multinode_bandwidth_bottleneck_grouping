@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "yjlees14-rlrsr_jd430"
+name = "yjlees14-multinode_bandwidth_bottleneck_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出强化学习研究员·多机通信的带宽瓶颈上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://yjlees14.github.io"
-Repository = "https://github.com/yjlees14/rlrsr_jd430"
-Issues = "https://github.com/yjlees14/rlrsr_jd430/issues"
+Repository = "https://github.com/yjlees14/multinode_bandwidth_bottleneck_grouping"
+Issues = "https://github.com/yjlees14/multinode_bandwidth_bottleneck_grouping/issues"
 
 [project.scripts]
-rlrsr_jd430 = "rlrsr_jd430:main"
+multinode_bandwidth_bottleneck_grouping = "multinode_bandwidth_bottleneck_grouping:main"
 
 [tool.setuptools]
-py-modules = ["rlrsr_jd430"]
+py-modules = ["multinode_bandwidth_bottleneck_grouping"]
